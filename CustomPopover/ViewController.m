@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "CustomAnimationAndTransition.h"
 @interface ViewController ()
+
+@property (nonatomic,strong) CustomAnimationAndTransition *customTransitionController;
 
 @end
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.customTransitionController = [[CustomAnimationAndTransition alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,6 +30,8 @@
 - (IBAction)openPopover:(UIButton *)sender {
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     UIViewController *popover = [storyBoard instantiateViewControllerWithIdentifier:@"POPOVER"];
+    popover.modalPresentationStyle = UIModalPresentationCustom;
+    [popover setTransitioningDelegate:_customTransitionController];
     [self presentViewController:popover animated:YES completion:nil];
 }
 @end

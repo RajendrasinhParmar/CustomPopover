@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="-62" y="295"/>
         </scene>
-        <!--View Controller-->
+        <!--Popover View Controller-->
         <scene sceneID="dQy-Tw-3bu">
             <objects>
-                <viewController storyboardIdentifier="POPOVER" id="g1g-2K-NAz" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="POPOVER" id="g1g-2K-NAz" customClass="PopoverViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fyQ-uO-tRa"/>
                         <viewControllerLayoutGuide type="bottom" id="rHg-Tp-DeQ"/>
@@ -67,6 +67,9 @@
                                             <color key="titleColor" red="0.21810125080000001" green="1" blue="0.27238550280000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="closePopover:" destination="g1g-2K-NAz" eventType="touchUpInside" id="ZEX-h3-S8n"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.26785452100000001" green="0.69412939380000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>

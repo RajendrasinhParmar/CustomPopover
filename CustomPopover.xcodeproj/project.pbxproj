@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09BB3FA01B9E0CFE0013D72B /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BB3F9F1B9E0CFE0013D72B /* PopoverViewController.m */; };
+		09BB3FA31B9E0F3A0013D72B /* CustomAnimationAndTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BB3FA21B9E0F3A0013D72B /* CustomAnimationAndTransition.m */; };
 		09DD69E81B9D37CF00CED256 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DD69E71B9D37CF00CED256 /* main.m */; };
 		09DD69EB1B9D37CF00CED256 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DD69EA1B9D37CF00CED256 /* AppDelegate.m */; };
 		09DD69EE1B9D37CF00CED256 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DD69ED1B9D37CF00CED256 /* ViewController.m */; };
@@ -31,6 +32,8 @@
 		09BB3F9D1B9E06090013D72B /* CustomPopover-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomPopover-PrefixHeader.pch"; sourceTree = SOURCE_ROOT; };
 		09BB3F9E1B9E0CFE0013D72B /* PopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewController.h; sourceTree = "<group>"; };
 		09BB3F9F1B9E0CFE0013D72B /* PopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewController.m; sourceTree = "<group>"; };
+		09BB3FA11B9E0F3A0013D72B /* CustomAnimationAndTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnimationAndTransition.h; sourceTree = "<group>"; };
+		09BB3FA21B9E0F3A0013D72B /* CustomAnimationAndTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnimationAndTransition.m; sourceTree = "<group>"; };
 		09DD69E21B9D37CF00CED256 /* CustomPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DD69E61B9D37CF00CED256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09DD69E71B9D37CF00CED256 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				09DD69EA1B9D37CF00CED256 /* AppDelegate.m */,
 				09DD69EC1B9D37CF00CED256 /* ViewController.h */,
 				09DD69ED1B9D37CF00CED256 /* ViewController.m */,
+				09BB3FA11B9E0F3A0013D72B /* CustomAnimationAndTransition.h */,
+				09BB3FA21B9E0F3A0013D72B /* CustomAnimationAndTransition.m */,
 				09DD69EF1B9D37CF00CED256 /* Main.storyboard */,
 				09BB3F9E1B9E0CFE0013D72B /* PopoverViewController.h */,
 				09BB3F9F1B9E0CFE0013D72B /* PopoverViewController.m */,
@@ -227,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09BB3FA01B9E0CFE0013D72B /* PopoverViewController.m in Sources */,
+				09BB3FA31B9E0F3A0013D72B /* CustomAnimationAndTransition.m in Sources */,
 				09DD69EE1B9D37CF00CED256 /* ViewController.m in Sources */,
 				09DD69EB1B9D37CF00CED256 /* AppDelegate.m in Sources */,
 				09DD69E81B9D37CF00CED256 /* main.m in Sources */,

@@ -10,4 +10,6 @@
 
 @interface PopoverViewController : UIViewController
 
+- (IBAction)closePopover:(UIButton *)sender;
+
 @end
