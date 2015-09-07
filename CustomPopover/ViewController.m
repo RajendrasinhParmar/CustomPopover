@@ -25,5 +25,8 @@
 }
 
 - (IBAction)openPopover:(UIButton *)sender {
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *popover = [storyBoard instantiateViewControllerWithIdentifier:@"POPOVER"];
+    [self presentViewController:popover animated:YES completion:nil];
 }
 @end

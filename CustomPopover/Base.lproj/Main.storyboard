@@ -39,6 +39,58 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-62" y="295"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dQy-Tw-3bu">
+            <objects>
+                <viewController storyboardIdentifier="POPOVER" id="g1g-2K-NAz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fyQ-uO-tRa"/>
+                        <viewControllerLayoutGuide type="bottom" id="rHg-Tp-DeQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tS1-Zh-ZVR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9GB-XE-uLa">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cMo-fj-fQR">
+                                <rect key="frame" x="187" y="176" width="226" height="247"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEq-pn-5GK">
+                                        <rect key="frame" x="61" y="109" width="104" height="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Close Popover">
+                                            <color key="titleColor" red="0.21810125080000001" green="1" blue="0.27238550280000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.26785452100000001" green="0.69412939380000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerY" secondItem="oEq-pn-5GK" secondAttribute="centerY" constant="-0.5" id="6KN-dT-dsi"/>
+                                    <constraint firstAttribute="centerX" secondItem="oEq-pn-5GK" secondAttribute="centerX" id="HCT-eo-xNw"/>
+                                    <constraint firstAttribute="height" constant="247" id="WMw-5T-4M7"/>
+                                    <constraint firstAttribute="width" constant="226" id="lcK-2o-cvH"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9GB-XE-uLa" secondAttribute="trailing" id="38m-11-cm1"/>
+                            <constraint firstItem="9GB-XE-uLa" firstAttribute="leading" secondItem="tS1-Zh-ZVR" secondAttribute="leading" id="AbL-Rw-NEU"/>
+                            <constraint firstItem="9GB-XE-uLa" firstAttribute="top" secondItem="tS1-Zh-ZVR" secondAttribute="top" id="dnX-VC-2Df"/>
+                            <constraint firstItem="rHg-Tp-DeQ" firstAttribute="top" secondItem="9GB-XE-uLa" secondAttribute="bottom" id="qmB-6I-dUG"/>
+                            <constraint firstAttribute="centerX" secondItem="cMo-fj-fQR" secondAttribute="centerX" id="wip-cm-Nn4"/>
+                            <constraint firstAttribute="centerY" secondItem="cMo-fj-fQR" secondAttribute="centerY" id="x19-A1-BlF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FQx-ry-UAS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="720" y="295"/>
         </scene>
     </scenes>
 </document>
