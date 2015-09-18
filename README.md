@@ -6,4 +6,7 @@ This is a demo project for custom popup with semi transparent background and cus
 ![Main Screen](mainScreen.png "Main Screen")
 
 # 2. Popover screen
-![PopoverScreen](popover.png "Popover screen")
+![PopoverScreen](popoverOne.png "First Popover screen")
+
+# 2. Popover screen
+![PopoverScreen](popoverSecond.png "Second Popover screen")
