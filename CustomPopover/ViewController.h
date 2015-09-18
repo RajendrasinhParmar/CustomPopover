@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 
 - (IBAction)openPopover:(UIButton *)sender;
+- (IBAction)openSecondPopover:(UIButton *)sender;
 
 @end
 

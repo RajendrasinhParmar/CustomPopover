@@ -34,4 +34,13 @@
     [popover setTransitioningDelegate:_customTransitionController];
     [self presentViewController:popover animated:YES completion:nil];
 }
+
+- (IBAction)openSecondPopover:(UIButton *)sender {
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *popover = [storyBoard instantiateViewControllerWithIdentifier:@"SECONDPOPOVER"];
+    popover.modalPresentationStyle = UIModalPresentationCustom;
+    [popover setTransitioningDelegate:_customTransitionController];
+    [self presentViewController:popover animated:YES completion:nil];
+
+}
 @end
