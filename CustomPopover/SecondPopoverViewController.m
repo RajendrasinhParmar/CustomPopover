@@ -34,4 +34,7 @@
 }
 */
 
+- (IBAction)closePopover:(UIButton *)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

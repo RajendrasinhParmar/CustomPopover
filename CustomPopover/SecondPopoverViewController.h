@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondPopoverViewController : UIViewController
+- (IBAction)closePopover:(UIButton *)sender;
 
 @end
