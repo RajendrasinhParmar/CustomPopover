@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0969E5EA1BAC1AA400705BE3 /* SecondPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969E5E91BAC1AA400705BE3 /* SecondPopoverViewController.m */; };
 		09BB3FA01B9E0CFE0013D72B /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BB3F9F1B9E0CFE0013D72B /* PopoverViewController.m */; };
 		09BB3FA31B9E0F3A0013D72B /* CustomAnimationAndTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BB3FA21B9E0F3A0013D72B /* CustomAnimationAndTransition.m */; };
 		09DD69E81B9D37CF00CED256 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DD69E71B9D37CF00CED256 /* main.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0969E5E81BAC1AA400705BE3 /* SecondPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPopoverViewController.h; sourceTree = "<group>"; };
+		0969E5E91BAC1AA400705BE3 /* SecondPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPopoverViewController.m; sourceTree = "<group>"; };
 		09BB3F9D1B9E06090013D72B /* CustomPopover-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomPopover-PrefixHeader.pch"; sourceTree = SOURCE_ROOT; };
 		09BB3F9E1B9E0CFE0013D72B /* PopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewController.h; sourceTree = "<group>"; };
 		09BB3F9F1B9E0CFE0013D72B /* PopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewController.m; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 				09DD69EF1B9D37CF00CED256 /* Main.storyboard */,
 				09BB3F9E1B9E0CFE0013D72B /* PopoverViewController.h */,
 				09BB3F9F1B9E0CFE0013D72B /* PopoverViewController.m */,
+				0969E5E81BAC1AA400705BE3 /* SecondPopoverViewController.h */,
+				0969E5E91BAC1AA400705BE3 /* SecondPopoverViewController.m */,
 				09DD69F21B9D37CF00CED256 /* Images.xcassets */,
 				09DD69F41B9D37CF00CED256 /* LaunchScreen.xib */,
 				09DD69E51B9D37CF00CED256 /* Supporting Files */,
@@ -233,6 +238,7 @@
 			files = (
 				09BB3FA01B9E0CFE0013D72B /* PopoverViewController.m in Sources */,
 				09BB3FA31B9E0F3A0013D72B /* CustomAnimationAndTransition.m in Sources */,
+				0969E5EA1BAC1AA400705BE3 /* SecondPopoverViewController.m in Sources */,
 				09DD69EE1B9D37CF00CED256 /* ViewController.m in Sources */,
 				09DD69EB1B9D37CF00CED256 /* AppDelegate.m in Sources */,
 				09DD69E81B9D37CF00CED256 /* main.m in Sources */,

@@ -21,8 +21,8 @@
 
 -(void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext{
     UIView *transitionView = [transitionContext containerView];
-    PopoverViewController *toViewController = (PopoverViewController *)[transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
-    ViewController *fromViewController = (ViewController *)[transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
+    UIViewController *toViewController = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
+    UIViewController *fromViewController = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     if (self.isPresenting) {
         [transitionView addSubview:toViewController.view];
         
